@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="obsidian">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TFD Trade & Market App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="subtitle">THE FIRST DESCENDANT</div>
+    <h1>TFD Trade & Market App</h1>
+
+    <div class="row" id="themes">
+      <button data-set-theme="obsidian" class="active">Obsidian</button>
+      <button data-set-theme="crimson">Crimson</button>
+      <button data-set-theme="abyssal">Abyssal</button>
+      <button data-set-theme="amethyst">Amethyst</button>
+      <button data-set-theme="slate">Slate</button>
+      <button data-set-theme="light">Light</button>
+    </div>
+
+    <div class="row">
+      <button onclick="loadMarketData()">🔄 Force Refresh</button>
+      <button onclick="sortByHot()">🔥 Best Sellers</button>
+      <button onclick="sortByPrice()">💎 Highest Value</button>
+    </div>
+
+    <div class="row" id="categories">
+      <button data-cat="ALL" class="active">All Hot Items</button>
+      <button data-cat="Trigger Module">Trigger Modules</button>
+      <button data-cat="Ancestor Module">Ancestor Modules</button>
+      <button data-cat="Weapon">Weapons</button>
+    </div>
+  </header>
+
+  <div class="filters">
+    <select id="descendantFilter" onchange="render()">
+      <option value="ALL">1. All Descendants</option>
+      <option value="Bunny">Bunny</option>
+      <option value="Freyna">Freyna</option>
+      <option value="Gley">Gley</option>
+      <option value="Hailey">Hailey</option>
+      <option value="Ines">Ines</option>
+      <option value="Universal">Universal / Weapon</option>
+    </select>
+    <select id="statFilter" onchange="render()">
+      <option value="ALL">2. All Key Stats</option>
+      <option value="Crit">Crit Rate / Damage</option>
+      <option value="Cooldown">Skill Cooldown</option>
+      <option value="Skill Power">Skill Power</option>
+      <option value="Firearm ATK">Firearm ATK</option>
+    </select>
+  </div>
+  <input type="text" id="searchInput" placeholder="Search Modules, Rolls, or Weapons..." oninput="render()" />
+
+  <div class="status-bar">
+    <span id="lastUpdated">Loading market...</span>
+    <span id="itemCount">0 items</span>
+  </div>
+
+  <main class="grid" id="marketGrid"></main>
+  <script src="script.js"></script>
+</body>
+</html>
