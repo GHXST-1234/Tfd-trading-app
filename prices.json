@@ -1,0 +1,45 @@
+{
+  "updatedAt": "2026-11-25T14:25:00Z",
+  "items": [
+    {
+      "name": "High-Voltage (God Roll)",
+      "category": "Trigger Module",
+      "descendant": "Bunny",
+      "statTag": "Crit Cooldown",
+      "rolls": "Skill Crit Damage +38%, Skill Cooldown -12%",
+      "sales24h": 142,
+      "lowestPrice": 420,
+      "recommendedPrice": 445
+    },
+    {
+      "name": "Contagion (Toxic Spread)",
+      "category": "Trigger Module",
+      "descendant": "Freyna",
+      "statTag": "Skill Power Cooldown",
+      "rolls": "Toxic Skill Power +18%, Skill Range +15%",
+      "sales24h": 118,
+      "lowestPrice": 350,
+      "recommendedPrice": 375
+    },
+    {
+      "name": "Ancestor Core: Mass Sanguification",
+      "category": "Ancestor Module",
+      "descendant": "Gley",
+      "statTag": "Cooldown",
+      "rolls": "Skill Duration +14%, Max HP +22%",
+      "sales24h": 95,
+      "lowestPrice": 500,
+      "recommendedPrice": 525
+    },
+    {
+      "name": "Cold-Bloodedness (Boss Melt)",
+      "category": "Trigger Module",
+      "descendant": "Hailey",
+      "statTag": "Crit Skill Power",
+      "rolls": "Chill Skill Power +21%, Crit Rate +16%",
+      "sales24h": 89,
+      "lowestPrice": 390,
+      "recommendedPrice": 415
+    }
+  ]
+}
