@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T14:25:00Z",
+  "updatedAt": "2026-11-25T14:40:38.359Z",
   "items": [
     {
       "name": "High-Voltage (God Roll)",
@@ -9,7 +9,7 @@
       "rolls": "Skill Crit Damage +38%, Skill Cooldown -12%",
       "sales24h": 142,
       "lowestPrice": 420,
-      "recommendedPrice": 445
+      "recommendedPrice": 441
     },
     {
       "name": "Contagion (Toxic Spread)",
@@ -19,7 +19,7 @@
       "rolls": "Toxic Skill Power +18%, Skill Range +15%",
       "sales24h": 118,
       "lowestPrice": 350,
-      "recommendedPrice": 375
+      "recommendedPrice": 368
     },
     {
       "name": "Ancestor Core: Mass Sanguification",
@@ -39,7 +39,7 @@
       "rolls": "Chill Skill Power +21%, Crit Rate +16%",
       "sales24h": 89,
       "lowestPrice": 390,
-      "recommendedPrice": 415
+      "recommendedPrice": 410
     }
   ]
 }
